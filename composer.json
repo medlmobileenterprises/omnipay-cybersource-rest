@@ -1,0 +1,22 @@
+{
+    "name": "medlmobileenterprises/omnipay-cybersource-rest",
+    "type": "library",
+    "require": {
+        "omnipay/common": "~3.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "omnipay/tests": "~3.0",
+        "squizlabs/php_codesniffer": "^3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "Omnipay\\CybersourceRest\\" : "src/" }
+    },
+    "authors": [
+        {
+            "name": "Donald Green",
+            "email": "donald.green@medlmobile.com"
+        }
+    ]
+}
